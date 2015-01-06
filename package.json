@@ -1,0 +1,10 @@
+{
+  "name": "react-form",
+  "version": "0.1.0",
+  "description": "Sample CommonJS form example using ReactJS",
+  "author": "Jason Sims <sims.jrobert@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.12.2"
+  }
+}
