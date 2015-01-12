@@ -5,3 +5,7 @@ Sample form that uses react.js to build a form button.
 ```sh
 ./node_modules/.bin/gulp
 ```
+### To run
+```sh
+npm start
+```
