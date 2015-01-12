@@ -20,7 +20,7 @@ gulp.task('styles', function() {
 
 // Compile react
 gulp.task('js', function() {
-  gulp.src('./src/App.jsx')
+  gulp.src('./src/js/App.jsx')
     .pipe(browserify({
       transform: reactify,
       extensions: ['.jsx']

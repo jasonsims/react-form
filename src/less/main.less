@@ -1,0 +1,33 @@
+
+@blue: #337ab7;
+@blueDark: #2e6da4;
+@green: #5cb85c;
+@greenDark: #4cae4c;
+
+body {
+  #main-wrapper {
+    button {
+      width: 250px;
+      height: 50px;
+      background: @blue;
+      border: solid 1px @blueDark;
+      border-radius: 5px;
+      color: white;
+      font-weight: bolder;
+      font-size: initial;
+
+      &:focus {
+        outline: 0;
+      }
+
+      &.btn-pending {
+        opacity: .65;
+      }
+
+      &.btn-success {
+        background-color: @green;
+        border: solid 1px @greenDark;
+      }
+    }
+  }
+}
